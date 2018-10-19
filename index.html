@@ -15,6 +15,7 @@
 		Color Game
 	</h1>
 	<div id="stripe">
+		<button id="myBtn">Instructions</button>
 		<button id="reset">New Colors</button>
 		<span id="message"></span>
 		<button id="easybtn">Easy</button>
@@ -31,6 +32,22 @@
 		<div class="square"></div>
 		<div class="square"></div>
 		<div class="square"></div>
+	</div>
+	<div id="myModal" class="modal">
+	    <div class="modal-content">
+	    	<div class="modal-header">
+	        	<span class="close">&times;</span>
+	        	<h2>How To Play?!</h2>
+	        </div>
+	    	<div class="modal-body">
+	        	<p>This game follows rgb color model which ranges from 0 to 255 for each color(Red, Green, Blue)</p>
+	        	<p>There is a rgb code written on the top</p>
+	        	<p>All you have to do is guess the correct tile color from the code given</p>
+	        	<p>You can restart the game anytime to get a new set of colored tiles</p>
+	        	<p>Choose the difficulty to change the number of tiles</p>
+	        	<p>To know more about rgb color code <a href="https://en.wikipedia.org/wiki/RGB_color_model" target="_blank">click here</a></p>
+	    	</div>
+	  	</div>
 	</div>
 	<script type="text/javascript" src="assets/js/color.js"></script>
 </body>
