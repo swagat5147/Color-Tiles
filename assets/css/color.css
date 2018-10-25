@@ -1,9 +1,10 @@
-body{
+body {
 	background-color: #232323;
 	margin: 0;
+	font-family: sans-serif;
 }
 
-.square{
+.square {
 	width: 30%;
 	background: #800080;
 	padding-bottom: 30%;
@@ -16,14 +17,13 @@ body{
 	-moz-transition: background 0.5s;
 }
 
-#container{
+#container {
 	margin: 10px auto;
 	max-width: 500px;
 }
 
-h1{
+h1 {
 	text-align: center;
-	font-family: arial;
 	line-height: 1.1;
 	background: #4682b4;
 	color: #fff;
@@ -34,32 +34,31 @@ h1{
 	font-size: 3.2vw;
 }
 
-#colordisplay{
+#colordisplay {
 	font-size: 1.2em;
 }
 
-#message{
+#message {
 	text-align: center;
 	display: inline-block;
 	width: 15%;
 	color: #4682b4;
 	text-transform: uppercase;
 	font-weight: 700;
-	font-family: arial;
 	font-size: 1.7vw;
 }
 
-#stripe{
+#stripe {
 	background: #fff;
 	height: 30px;
 	text-align: center;
 	color: #000;
 }
-.selected{
+.selected {
 	color: #fff;
 	background: #4682b4;
 }
-button{
+button {
 	border: none;
 	background: none;
 	text-transform: uppercase;
@@ -74,70 +73,81 @@ button{
 	outline: none;
 }
 
-button:hover{
+button:hover {
 	color: #fff;
 	background: #4682b4;
 }
 
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; 
-    height: 100%;
-    overflow: auto; /* Enable scroll if needed */
-    
-    background-color: rgba(0,0,0,0.4); /*Opacity */
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto; /* Enable scroll if needed */
+
+	background-color: rgba(0, 0, 0, 0.4); /*Opacity */
 }
 
 /* Modal Content */
 .modal-content {
-    position: relative;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 0;
-    font-family: arial;
-    width: 75%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 0;
+	width: 75%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s;
 }
 
 /* Add Animation */
 @-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0} 
-    to {top:0; opacity:1}
+	from {
+		top: -300px;
+		opacity: 0;
+	}
+	to {
+		top: 0;
+		opacity: 1;
+	}
 }
 
 @keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
+	from {
+		top: -300px;
+		opacity: 0;
+	}
+	to {
+		top: 0;
+		opacity: 1;
+	}
 }
 
 /* The Close Button */
 .close {
-    color: white;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+	color: white;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 .modal-header {
-    padding: 2px 16px;
-    background-color: #4682b4;
-    color: white;
+	padding: 2px 16px;
+	background-color: #4682b4;
+	color: white;
 }
 
 .modal-body {
